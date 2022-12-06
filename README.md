@@ -1,2 +1,5 @@
 # StronglyConnectedAgernt4Ostis
-For test, place the scs files from /tests in kb and build the knowledge base
+For test:
+	1) place the scs files from /tests in /kb
+	2) build the knowledge base
+	3) build the problem-solver
