@@ -4,7 +4,7 @@
 * (See accompanying file COPYING.MIT or copy at http://opensource.org/licenses/MIT)
 */
 
-#include "exampleModule.hpp"
+#include "stronglyConnectedModule.hpp"
 #include "keynodes/keynodes.hpp"
 #include "agents/IsStronglyConnectedAgent.hpp"
 
