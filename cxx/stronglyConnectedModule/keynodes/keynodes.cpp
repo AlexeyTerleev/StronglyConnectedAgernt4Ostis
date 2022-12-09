@@ -6,7 +6,7 @@
 
 #include "keynodes.hpp"
 
-namespace exampleModule
+namespace stronglyConnectedModule
 {
 
 ScAddr Keynodes::question_is_strongly_connected;

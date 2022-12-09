@@ -8,13 +8,13 @@
 #include "keynodes/keynodes.hpp"
 #include "agents/IsStronglyConnectedAgent.hpp"
 
-using namespace exampleModule;
+using namespace stronglyConnectedModule;
 
-SC_IMPLEMENT_MODULE(ExampleModule)
+SC_IMPLEMENT_MODULE(StronglyConnectedModule)
 
-sc_result ExampleModule::InitializeImpl()
+sc_result StronglyConnectedModule::InitializeImpl()
 {
-  if (!exampleModule::Keynodes::InitGlobal())
+  if (!stronglyConnectedModule::Keynodes::InitGlobal())
     return SC_RESULT_ERROR;
 
   SC_AGENT_REGISTER(IsStronglyConnectedAgent)
@@ -22,7 +22,7 @@ sc_result ExampleModule::InitializeImpl()
   return SC_RESULT_OK;
 }
 
-sc_result ExampleModule::ShutdownImpl()
+sc_result StronglyConnectedModule::ShutdownImpl()
 {
 
   SC_AGENT_UNREGISTER(IsStronglyConnectedAgent)

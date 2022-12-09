@@ -30,8 +30,6 @@ public:
   SC_PROPERTY(Keynode("question_find_isomorphic_structures"), ForceCreate)
   static ScAddr question_find_isomorphic_structures;
 
-  SC_PROPERTY(Keynode("question_is_strongly_connected"), ForceCreate)
-  static ScAddr question_is_strongly_connected;
 
 };
 

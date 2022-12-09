@@ -8,9 +8,9 @@
 
 #include <sc-memory/sc_module.hpp>
 
-#include "exampleModule.generated.hpp"
+#include "stronglyConnectedModule.generated.hpp"
 
-class ExampleModule : public ScModule
+class StronglyConnectedModule : public ScModule
 {
   SC_CLASS(LoadOrder(50))
   SC_GENERATED_BODY()

@@ -4,7 +4,7 @@
 using namespace std;
 using namespace utils;
 
-namespace exampleModule
+namespace stronglyConnectedModule
 {
 
     ScAddr get_set_vertexes(const std::unique_ptr<ScMemoryContext>& context, ScAddr graph){

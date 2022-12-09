@@ -11,7 +11,7 @@
 
 #include "keynodes.generated.hpp"
 
-namespace exampleModule
+namespace stronglyConnectedModule
 {
 
 class Keynodes : public ScObject

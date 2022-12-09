@@ -5,7 +5,7 @@
 #include "keynodes/keynodes.hpp"
 #include "IsStronglyConnectedAgent.generated.hpp"
 
-namespace exampleModule
+namespace stronglyConnectedModule
 {
     class IsStronglyConnectedAgent : public ScAgent
     {
